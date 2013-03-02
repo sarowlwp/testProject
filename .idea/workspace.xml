@@ -7,8 +7,15 @@
     <file path="/isTranslate.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362071265523" ignored="false" />
     <file path="/a.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362068428446" ignored="false" />
     <file path="/TestBean.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362071505794" ignored="false" />
-    <file path="/Main.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362070277964" ignored="false" />
+    <file path="/Main.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362209642745" ignored="false" />
     <file path="/Translater.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362073163466" ignored="false" />
+    <file path="/fragment.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362209734859" ignored="false" />
+    <file path="/Simulator.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362209794437" ignored="false" />
+    <file path="/SimulatorProxy.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362210720753" ignored="false" />
+    <file path="/BookFacadeProxy.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362213057695" ignored="false" />
+    <file path="/Dummy.txt" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362214018096" ignored="false" />
+    <file path="/a.dummy" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362215092450" ignored="false" />
+    <file path="E:/git/junit/src/main/java/org/junit/internal/runners/MethodRoadie.java" changelist="1e69e50c-b81c-4143-9340-76e4959397ec" time="1362214563027" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +30,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -57,7 +65,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -67,10 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="429" selection-end="429" vertical-scroll-proportion="0.5078125">
+            <state line="8" column="24" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,7 +86,36 @@
       <file leaf-file-name="Translater.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Translater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="11" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimulatorProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/SimulatorProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="39" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookFacadeProxy.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/BookFacadeProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="72" selection-start="536" selection-end="536" vertical-scroll-proportion="0.28494623">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Class.class">
+      <file leaf-file-name="Simulator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="37" selection-start="6548" selection-end="6548" vertical-scroll-proportion="0.0">
+            <state line="10" column="23" selection-start="233" selection-end="248" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,7 +136,9 @@
         <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/isTranslate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="21" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,24 +147,6 @@
         <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/TestBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="11" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/String.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Target.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/annotation/Target.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,14 +168,18 @@
         <option value="$PROJECT_DIR$/src/TestBean.java" />
         <option value="$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/test/Translater.java" />
         <option value="$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Translater.java" />
+        <option value="$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/Simulator.java" />
+        <option value="$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/SimulatorProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/BookFacadeProxy.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="22" />
-    <option name="width" value="1388" />
-    <option name="height" value="860" />
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1394" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -228,8 +252,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,53 +269,32 @@
               <option name="myItemId" value="testProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propDebugger" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" singleton="true" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.sohu.suc.wenpingliu.annotation.Main" />
       <option name="VM_PARAMETERS" value="" />
@@ -303,8 +304,8 @@
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaTest" />
+      <option name="PASS_PARENT_ENVS" value="false" />
+      <module name="testProject" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -388,31 +389,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="22" width="1388" height="860" extended-state="0" />
+    <frame x="54" y="-8" width="1394" height="916" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.49403876" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.49403876" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44324324" sideWeight="0.5007452" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4423841" sideWeight="0.5097598" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.67027026" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.49701938" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962743" sideWeight="0.55675673" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44324324" sideWeight="0.4880775" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924925" sideWeight="0.5576159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4423841" sideWeight="0.484985" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.49701938" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.49403876" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -479,6 +480,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="35" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Translater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="11" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/isTranslate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="11" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="35" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -488,22 +521,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="11" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Class.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="37" selection-start="6548" selection-end="6548" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/isTranslate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="21" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,37 +542,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/String.class">
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/isTranslate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="17" column="21" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/annotation/Target.class">
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/annotation/Target.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Class.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="37" selection-start="6548" selection-end="6548" vertical-scroll-proportion="0.0">
+        <state line="8" column="24" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -558,24 +567,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Translater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="11" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/isTranslate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/annotation/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/SimulatorProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="429" selection-end="429" vertical-scroll-proportion="0.5078125">
+        <state line="19" column="39" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/Simulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="233" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sohu/suc/wenpingliu/proxy/BookFacadeProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="72" selection-start="536" selection-end="536" vertical-scroll-proportion="0.28494623">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
